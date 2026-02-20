@@ -11,6 +11,7 @@ import subprocess
 from contextlib import contextmanager
 from dotenv import load_dotenv
 from urllib.parse import urljoin
+from pathlib import Path
 
 # Load environment variables from .env file
 load_dotenv()
@@ -503,8 +504,10 @@ finally:
 df = pd.DataFrame(dataset)
 
 # 9. Save the tabular dataset to a CSV file for your ML model
-df.to_csv('sri_lankan_vehicles.csv', index=False)
-logger.info('Successfully scraped %s vehicles and saved to sri_lankan_vehicles.csv', len(df))
+output_path = Path('./data/sri_lankan_vehicles.csv')
+output_path.parent.mkdir(parents=True, exist_ok=True)
+df.to_csv(output_path, index=False)
+logger.info('Successfully scraped %s vehicles and saved to %s', len(df), str(output_path))
 
 if interrupted:
     sys.exit(0)
