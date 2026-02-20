@@ -108,10 +108,10 @@ def explain_prediction(preprocess, model, X_input: pd.DataFrame) -> tuple[float,
     return base_value, contrib
 
 
-st.set_page_config(page_title="Vehicle Price Predictor", layout="centered")
+st.set_page_config(page_title="Sri Lankan Car Price Predictor", layout="centered")
 
-st.title("Vehicle Price Predictor")
-st.caption("Predict Sri Lankan vehicle prices using the trained XGBoost model.")
+st.title("Sri Lankan Car Price Predictor")
+st.caption("Predict Sri Lankan car prices using the trained XGBoost model.")
 
 try:
     preprocess, model = load_artifacts()
