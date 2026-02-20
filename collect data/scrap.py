@@ -81,8 +81,9 @@ def _redirect_stderr_to_devnull(enabled: bool):
 # URL should be like: https://riyasewana.com
 base_url = (os.getenv('URL') or 'https://riyasewana.com').rstrip('/')
 # Optional override if you want to scrape a different category/brand.
-# Examples: /search/cars , /search/cars/toyota
-start_path = os.getenv('START_PATH') or '/search/cars/toyota'
+# Examples: /search/cars (all makes) , /search/cars/toyota (Toyota only)
+# If START_PATH is not provided, default to all car listings.
+start_path = os.getenv('START_PATH') or '/search/cars'
 start_url = start_path if start_path.lower().startswith('http') else f'{base_url}{start_path}'
 
 # Optional controls
