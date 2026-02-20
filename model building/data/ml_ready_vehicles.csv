@@ -1,0 +1,163 @@
+Make,Model,YOM,MileageKM_Clean,Gear,FuelType,EngineCC,is_first_owner,is_accident_free,is_mint_condition,has_service_records,Price_Clean
+Toyota,Prius ZVW30,2012,210000.0,Automatic,Hybrid,1800.0,0,0,1,1,9800000.0
+Suzuki,Wagon R Custom Hybrid ZX,2024,3300.0,Automatic,Hybrid,660.0,0,0,0,0,8300000.0
+Daihatsu,Mira ES Limited,2025,1120.0,Automatic,Petrol,650.0,0,0,0,0,6675000.0
+Toyota,Vitz 130,2017,41000.0,Automatic,Petrol,1000.0,0,0,0,0,8075000.0
+Toyota,ALLION 260 G PLUS,2010,135000.0,Automatic,Petrol,1500.0,0,1,0,1,8750000.0
+Toyota,COROLLA 121,2005,198600.0,Manual,Petrol,1300.0,0,0,0,0,4675000.0
+Suzuki,Alto 800 LXI,2014,98000.0,Manual,Petrol,800.0,0,0,1,1,3625000.0
+Kia,Mentor,2000,166902.0,Manual,Petrol,1500.0,0,0,0,0,22000000.0
+Suzuki,Alto 800 LXI,2017,20000.0,Manual,Petrol,799.0,0,0,0,0,4490000.0
+Nissan,Cefiro J31,2007,153000.0,Automatic,Petrol,2400.0,0,0,1,0,6075000.0
+Toyota,Prius,2012,127400.0,Automatic,Hybrid,1800.0,0,0,0,0,9200000.0
+Audi,A4,2003,188000.0,Automatic,Petrol,2000.0,0,0,0,1,4800000.0
+Toyota,Vitz KSP90,2007,158.0,Automatic,Petrol,1000.0,0,0,1,0,4975000.0
+Suzuki,Alto 800,2015,100000.0,Manual,Petrol,800.0,0,0,1,0,3690000.0
+Suzuki,Alto,2005,160000.0,Manual,Petrol,800.0,0,0,0,0,2675000.0
+Chevrolet,Cruze,2004,182000.0,Automatic,Petrol,1300.0,0,0,0,1,3950000.0
+Nissan,March,2002,160000.0,Automatic,Petrol,1300.0,0,0,0,0,3150000.0
+Honda,CIVIC,2017,112000.0,Automatic,Petrol,1000.0,0,0,0,0,12500000.0
+Suzuki,Zen,2004,130000.0,Manual,Petrol,1000.0,0,0,0,0,2250000.0
+Toyota,Axio 141 X Grade,2007,166000.0,Automatic,Petrol,1500.0,0,0,0,0,6875000.0
+Suzuki,Alto Japan,2018,85000.0,Automatic,Petrol,650.0,0,0,0,0,5590000.0
+Toyota,Vios,2004,155000.0,Automatic,Petrol,1500.0,1,0,0,0,5290000.0
+Suzuki,Wagon R Fx Safety,2017,97000.0,Automatic,Hybrid,,0,0,0,0,5950000.0
+Honda,Insight ZE2,2010,188000.0,Automatic,Petrol,1300.0,0,0,0,0,6950000.0
+Suzuki,ALTO 800,2015,120000.0,Manual,Petrol,800.0,0,1,1,0,3650000.0
+Nissan,Leaf,2013,56000.0,Automatic,Petrol,,0,0,1,0,4450000.0
+Renault,Kwid Rxt,2016,118500.0,Manual,Petrol,800.0,1,0,0,0,3600000.0
+Toyota,Carina,1987,1.0,Manual,Petrol,1500.0,0,0,0,0,1375000.0
+Toyota,AXIO G GRADE,2016,132000.0,Automatic,Hybrid,1500.0,0,0,1,0,11200000.0
+Perodua,Viva Elite,2011,148000.0,Automatic,Petrol,1000.0,0,1,1,0,3990000.0
+Mitsubishi,EK Wagon,2017,65000.0,Automatic,Petrol,650.0,0,0,0,0,5850000.0
+Mazda,3,2014,131800.0,Automatic,Petrol,1600.0,0,0,0,1,9850000.0
+Toyota,Belta,2008,159000.0,Automatic,Petrol,1000.0,0,0,0,0,5950000.0
+Toyota,Prius,2014,144000.0,Automatic,Hybrid,1800.0,0,0,0,1,10800000.0
+Suzuki,Alto,2007,115000.0,Manual,Petrol,800.0,0,0,0,0,2900000.0
+Perodua,Kelisa,2006,150000.0,Automatic,Petrol,1000.0,0,1,1,0,3325000.0
+Nissan,HB11 Long Buffer,1985,205869.0,Manual,Petrol,1500.0,0,0,0,0,995000.0
+Toyota,Corolla AE100,1993,240000.0,Automatic,Petrol,1500.0,0,0,0,0,24500000.0
+Suzuki,Alto Lxi,2015,112000.0,Manual,Petrol,800.0,0,0,0,0,3635000.0
+Suzuki,Maruti 800,2011,38400.0,Manual,Petrol,800.0,0,0,0,1,2420000.0
+Toyota,Aqua,2012,,Automatic,Petrol,1500.0,0,0,0,0,6375000.0
+Nissan,March K11,1997,170000.0,Manual,Petrol,1000.0,0,0,0,0,2675000.0
+Toyota,Yaris Ativ,2025,83.0,Automatic,Petrol,1200.0,0,0,0,0,15675000.0
+Nissan,B11,1983,183345.0,Manual,Petrol,1300.0,0,0,0,0,640000.0
+Suzuki,Wagon R Stingray J Style,2014,55000.0,Automatic,Hybrid,650.0,1,1,1,1,5650000.0
+Mitsubishi,Lancer A172A,1980,,Manual,Petrol,1400.0,0,0,0,0,1625000.0
+Toyota,Vitz,2008,114000.0,Automatic,Petrol,1000.0,0,1,0,0,5295000.0
+Toyota,COROLLA CE100 CAR,1991,,Manual,Diesel,1970.0,0,1,0,0,2345000.0
+Suzuki,Maruti 800 EFI,2006,87000.0,Manual,Petrol,800.0,0,1,1,0,2175000.0
+Toyota,Aqua S Grade,2012,160000.0,Automatic,Petrol,1500.0,0,0,0,0,6200000.0
+Suzuki,Alto LXI 800,2015,150000.0,Manual,Petrol,800.0,1,1,1,1,3800000.0
+Mercedes-Benz,CLA 180 Premium Plus,2019,59000.0,Automatic,Petrol,1400.0,0,0,0,0,22900000.0
+Nissan,Palser Fn15,2000,225000.0,Manual,Petrol,1500.0,0,0,0,0,3175000.0
+Tata,Indigo,2007,5000.0,Manual,Diesel,1400.0,0,0,0,0,2000000.0
+Daihatsu,TAFT G DARK CHROME VENTURE,2025,,Automatic,Petrol,650.0,0,0,0,0,8400000.0
+Suzuki,Wagon R FX Safety,2025,6800.0,Automatic,Petrol,650.0,0,0,0,0,7650000.0
+Suzuki,Alto,2017,138000.0,Manual,Petrol,800.0,0,0,0,0,3975000.0
+Toyota,Aqua,2014,49000.0,Automatic,Hybrid,1500.0,1,0,0,0,7850000.0
+Kia,Picanto,2005,200500.0,Manual,Petrol,1000.0,0,0,0,1,2865000.0
+Suzuki,Swift ZXI,2007,155000.0,Manual,Petrol,1300.0,0,0,0,0,4550000.0
+Renault,Kwid,2016,80000.0,Manual,Petrol,800.0,0,0,0,0,3750000.0
+Suzuki,Wagon R,2016,92000.0,Automatic,Petrol,650.0,0,0,0,0,5800000.0
+Perodua,Bezza,2017,181000.0,Automatic,Petrol,1000.0,1,0,0,0,6650000.0
+Toyota,ALLION,2008,253000.0,Automatic,Petrol,1500.0,0,0,0,0,7550000.0
+Kia,Picanto,2016,77000.0,Automatic,Petrol,998.0,1,0,0,0,5590000.0
+Kia,Picanto,2016,55200.0,Automatic,Petrol,998.0,0,0,0,0,5590000.0
+Toyota,Aliyan,2010,123.0,Automatic,Petrol,123.0,0,0,0,0,8150000.0
+Suzuki,Alto 800,2016,120000.0,Manual,Petrol,800.0,1,1,0,0,3845000.0
+Honda,Civic FD3,2010,187000.0,Automatic,Hybrid,1390.0,0,0,0,0,6790000.0
+Toyota,Prius S Touring My Coordination,2014,197500.0,Automatic,Hybrid,1800.0,0,0,0,0,10800000.0
+Toyota,Aqua,2012,196000.0,Automatic,Hybrid,1500.0,1,0,1,0,7000000.0
+Kia,Picanto,2016,77000.0,Automatic,Petrol,998.0,0,0,0,1,5690000.0
+Kia,Picanto,2016,70900.0,Automatic,Petrol,998.0,0,0,0,0,5790000.0
+Chevrolet,Chverolet Cruze Limited,2004,131000.0,Automatic,Petrol,1000.0,0,1,0,0,3525000.0
+Toyota,Corolla DX Wagon KE72,1986,278413.0,Manual,Petrol,1300.0,0,0,1,0,1290000.0
+Toyota,Allion 260 G Grade,2009,135000.0,Automatic,Petrol,1500.0,0,1,0,1,8600000.0
+Honda,FIT GP5,2014,147500.0,Automatic,Hybrid,1500.0,0,0,0,0,7750000.0
+Honda,Grace EX,2017,102000.0,Automatic,Hybrid,1500.0,0,0,0,0,9200000.0
+Suzuki,Wagon R Stingray,2017,150000.0,Automatic,Petrol,650.0,0,0,0,0,6350000.0
+Toyota,Soluna,2007,,Automatic,Petrol,1500.0,0,0,0,0,1825000.0
+Suzuki,Wagon R Stingray,2018,88106.0,Automatic,Petrol,660.0,1,0,0,1,6975000.0
+Mazda,Carol G Grade,2015,86000.0,Automatic,Hybrid,660.0,1,0,0,1,5175000.0
+Toyota,Corolla AE81,1987,278451.0,Manual,Petrol,1500.0,0,0,1,0,1390000.0
+Toyota,Yaris,2007,178000.0,Automatic,Petrol,1300.0,0,0,0,0,6300000.0
+Suzuki,Swift RS Turbo,2017,98000.0,Automatic,Petrol,1000.0,1,0,1,1,8350000.0
+Nissan,N16 N17 Super Saloon,2004,220000.0,Automatic,Petrol,1300.0,0,1,1,1,4375000.0
+Toyota,Corolla AE81,1987,268451.0,Manual,Petrol,1500.0,0,0,1,0,1390000.0
+Zotye,Z100,2020,78000.0,Manual,Petrol,1000.0,0,0,0,0,3350000.0
+Suzuki,Celerio VXI,2016,121000.0,Automatic,Petrol,1000.0,0,0,0,0,5195000.0
+Nissan,N17 Sylphy FG10,2005,180000.0,Automatic,Petrol,1500.0,0,0,0,0,4850000.0
+Perodua,Viva Elite,2011,154000.0,Automatic,Petrol,,0,0,1,0,4400000.0
+Suzuki,Wagon R Stingray,2018,88700.0,Automatic,Petrol,650.0,0,1,0,1,6950000.0
+Toyota,Yaris,2008,221000.0,Automatic,Petrol,1300.0,0,0,0,0,6500000.0
+Toyota,YARIS X GRADE,2025,2900.0,Automatic,Petrol,1000.0,0,0,0,0,9475000.0
+Suzuki,Alto,2015,95000.0,Manual,Petrol,800.0,0,1,0,0,3720000.0
+Suzuki,Spacia,2017,73000.0,Automatic,Hybrid,650.0,1,0,0,0,5800000.0
+Toyota,Corolla 121,2007,120000.0,Automatic,Petrol,1500.0,0,0,0,0,6400000.0
+Suzuki,A-Star Vxi,2012,,Manual,Petrol,1000.0,1,1,0,0,3575000.0
+Mitsubishi,Lancer C12V Wagon Attanayake Model,1987,123456.0,Manual,Petrol,1460.0,0,0,0,0,1095000.0
+Toyota,Vitz,2019,68000.0,Automatic,Petrol,1000.0,0,1,0,0,8400000.0
+Suzuki,SWIFT,2008,148000.0,Automatic,Petrol,1300.0,0,0,0,0,5200000.0
+Toyota,Carina Si My Road,2000,200000.0,Automatic,Petrol,1800.0,0,0,0,1,5950000.0
+Mitsubishi,LIBERO,1997,100000.0,Automatic,Petrol,1460.0,0,0,0,0,2850000.0
+Nissan,Dayz,2015,49860.0,Automatic,Petrol,650.0,0,0,0,1,5790000.0
+Suzuki,Hustler,2015,86000.0,Automatic,Hybrid,660.0,0,0,0,0,5650000.0
+Nissan,Sunny B310,1980,111111.0,Manual,Petrol,1200.0,0,0,0,0,735000.0
+BMW,523I M5 KITTED STAGE 1 REMAPPED,2010,100000.0,Automatic,Petrol,2500.0,0,0,0,0,16900000.0
+Toyota,Corolla Axio Hybrid NKE 165,2016,103119.0,Automatic,Hybrid,1499.0,1,0,0,0,10800000.0
+Toyota,KE 73,1986,200.0,Manual,Petrol,1300.0,0,0,0,0,2300000.0
+Toyota,Aqua,2013,,Automatic,Hybrid,,0,0,0,0,6000000.0
+Micro,Mx7 Mark 2,2013,81000.0,Manual,Petrol,1500.0,0,0,0,0,3395000.0
+Daewoo,Matiz,1999,66000.0,Manual,Petrol,800.0,0,0,0,0,1500000.0
+Mazda,Familia,1991,16254.0,Automatic,Petrol,1320.0,0,0,1,0,1833000.0
+Toyota,Carina Corona EFI,1990,214564.0,Manual,Petrol,1500.0,0,0,1,0,2090000.0
+Toyota,Belta,2007,161000.0,Automatic,Petrol,1300.0,0,0,1,0,6370000.0
+Toyota,Pixis,2018,119000.0,Automatic,Petrol,650.0,1,0,0,0,5675000.0
+Suzuki,Alto 800,2016,104000.0,Manual,Petrol,800.0,0,0,0,0,3650000.0
+Toyota,Vitz,2010,172000.0,Automatic,Petrol,,0,0,0,0,6000000.0
+Suzuki,Spacia Custom GS,2023,20000.0,Automatic,Hybrid,660.0,0,0,0,0,8350000.0
+Mini,Cooper,2002,75000.0,Manual,Petrol,1500.0,0,0,0,0,6500000.0
+Toyota,Vitz,2018,56000.0,Automatic,Petrol,1000.0,0,1,1,1,8275000.0
+Nissan,March K11,2001,172000.0,Automatic,Petrol,1000.0,0,0,0,0,895000.0
+Toyota,Corolla,1990,278000.0,Manual,Diesel,1830.0,0,0,0,0,1850000.0
+Renault,Kwid,2016,108000.0,Manual,Petrol,800.0,0,1,0,0,3790000.0
+Nissan,March K11,2000,155600.0,Automatic,Petrol,1000.0,0,0,0,0,3190000.0
+Toyota,Axio WXB,2018,95000.0,Automatic,Hybrid,1500.0,0,0,1,1,12500000.0
+Toyota,Aqua X Urban Face,2015,85000.0,Automatic,Hybrid,1500.0,0,0,0,0,8250000.0
+Micro,Panda,2017,90000.0,Manual,Petrol,1000.0,1,0,0,0,3250000.0
+Toyota,CAMRY CV30,1993,286000.0,Automatic,Diesel,1970.0,0,0,0,0,2250000.0
+Toyota,Vitz,2016,92200.0,Automatic,Petrol,1000.0,0,0,0,0,7150000.0
+Toyota,Premio,2010,230000.0,Automatic,Petrol,15008.0,0,1,0,1,8800000.0
+Nissan,Pulsar,1997,299000.0,Automatic,Petrol,1498.0,0,0,0,0,3200000.0
+Suzuki,Swift,2004,1300000.0,Automatic,Petrol,1300.0,0,0,0,0,4450000.0
+Toyota,Corolla Dx Wagon KE72,1986,149655.0,Manual,Petrol,1300.0,0,0,0,0,1525000.0
+Mitsubishi,Lancer C12 GLX,1985,177522.0,Manual,Petrol,1500.0,0,0,0,0,785000.0
+Toyota,Axio,2007,150000.0,Automatic,Petrol,1500.0,0,0,0,0,7000000.0
+Suzuki,Alto,2015,85362.0,Manual,Petrol,800.0,1,1,0,0,3950000.0
+Suzuki,Spacia G Model,2025,,Automatic,Hybrid,660.0,0,0,0,0,8400000.0
+Nissan,Sunny Super Saloon,2007,275000.0,Manual,Petrol,1300.0,0,0,1,0,4890000.0
+Toyota,Vitz Safety Edition,2016,237000.0,Automatic,Petrol,1000.0,1,0,0,0,7250000.0
+Toyota,Vios,2004,182000.0,Automatic,Petrol,1500.0,0,0,0,0,5275000.0
+Toyota,Corona AT 190,1994,225000.0,Manual,Petrol,1600.0,0,0,0,0,550000.0
+Nissan,B12,1987,100000.0,Manual,Petrol,1300.0,0,0,0,0,1390000.0
+Toyota,Starlet EP82,1994,250000.0,Automatic,Petrol,1330.0,0,0,0,0,3125000.0
+Suzuki,Swift RS,2018,98000.0,Automatic,Petrol,1000.0,1,0,0,0,7700000.0
+Toyota,Vitz Edition 3,2019,75000.0,Automatic,Petrol,1000.0,1,1,0,1,8375000.0
+Suzuki,Swift,2006,190000.0,Automatic,Petrol,1500.0,0,0,0,0,3700000.0
+Toyota,Premio G Superior,2012,120000.0,Automatic,Petrol,1500.0,0,1,0,1,9750000.0
+Suzuki,Hustler,2025,215.0,Automatic,Hybrid,660.0,0,0,0,0,8750000.0
+Toyota,Premio G Superior,2007,119000.0,Automatic,Petrol,1500.0,0,0,0,0,8690000.0
+Peugeot,207 SW,2012,110000.0,Manual,Petrol,1600.0,0,0,0,0,7000000.0
+Suzuki,Wagon R FZ,2014,178000.0,Automatic,Petrol,650.0,0,0,0,0,5625000.0
+Suzuki,Swift RS,2017,73000.0,Automatic,Petrol,1200.0,0,0,0,0,7650000.0
+Tata,Nano CX,2013,95413.0,Manual,Petrol,650.0,0,0,0,0,1325000.0
+Nissan,March K11,1999,1760000.0,Manual,Petrol,990.0,0,0,0,0,2600000.0
+Toyota,Vitz Ksp 90,2006,,Automatic,Petrol,1000.0,0,1,0,1,4825000.0
+Honda,Civic FD 1,2006,113000.0,Automatic,Petrol,1800.0,0,0,1,1,7450000.0
+Daihatsu,Tanto Custom,2023,15000.0,Automatic,Petrol,650.0,0,0,0,0,8700000.0
+Toyota,Vitz,2008,130000.0,Automatic,Petrol,1000.0,0,0,1,0,5350000.0
+Toyota,Vitz,2008,172000.0,Automatic,Petrol,1000.0,0,0,0,0,5600000.0
+Suzuki,Alto Japan,2006,171000.0,Automatic,Petrol,650.0,0,0,0,0,3375000.0
+Suzuki,Wagon R Stingray,2018,105.0,Automatic,Hybrid,650.0,0,1,0,0,6300000.0
