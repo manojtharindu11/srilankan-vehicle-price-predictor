@@ -1,6 +1,6 @@
-# Sri Lankan Vehicle Price Predictor
+# Sri Lankan Used Car Price Predictor
 
-Predict Sri Lankan vehicle prices from listing attributes (make, model, year, mileage, transmission, fuel type, engine CC, and simple condition flags extracted from ad text).
+Predict Sri Lankan used car prices from listing attributes (make, model, year, mileage, transmission, fuel type, engine CC, and simple condition flags extracted from ad text).
 
 ## What’s in this repo
 
