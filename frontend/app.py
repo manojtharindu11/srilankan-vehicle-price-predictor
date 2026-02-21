@@ -48,6 +48,48 @@ def get_categories(preprocess) -> dict[str, list[str]]:
         return {}
 
 
+@st.cache_data
+def load_make_model_map() -> dict[str, list[str]]:
+    """Build Make -> Models mapping from the cleaned ML dataset.
+
+    This ensures the UI only shows models relevant to a selected make.
+    """
+    root_dir = Path(__file__).resolve().parents[1]
+    dataset_path = root_dir / "data" / "ml_ready_vehicles.csv"
+    if not dataset_path.exists():
+        return {}
+
+    try:
+        df = pd.read_csv(dataset_path, usecols=["Make", "Model"])
+    except Exception:
+        return {}
+
+    df = df.dropna(subset=["Make", "Model"]).copy()
+    df["Make"] = df["Make"].astype(str).str.replace(r"\s+", " ", regex=True).str.strip()
+    df["Model"] = df["Model"].astype(str).str.replace(r"\s+", " ", regex=True).str.strip()
+
+    df = df[(df["Make"] != "") & (df["Model"] != "")]
+
+    # Normalize casing by choosing the most frequent spelling for each value.
+    def _mode_string(values: pd.Series) -> str:
+        vc = values.astype(str).value_counts()
+        return str(vc.index[0]) if len(vc) else ""
+
+    make_key = df["Make"].str.casefold()
+    df["Make"] = df.groupby(make_key)["Make"].transform(_mode_string)
+
+    pair_key = df["Make"].str.casefold() + "||" + df["Model"].str.casefold()
+    df["Model"] = df.groupby(pair_key)["Model"].transform(_mode_string)
+
+    make_to_models: dict[str, list[str]] = {}
+    for make, g in df.groupby("Make", sort=True):
+        models = sorted({str(m) for m in g["Model"].dropna().tolist() if str(m).strip()})
+        if models:
+            make_to_models[str(make)] = models
+
+    return make_to_models
+
+
 def format_lkr(value: float) -> str:
     if value is None or (isinstance(value, float) and np.isnan(value)):
         return "-"
@@ -59,6 +101,19 @@ def select_or_text(label: str, options: list[str] | None, default: str = "") -> 
     if len(options) > 0:
         return st.selectbox(label, options=options)
     return st.text_input(label, value=default)
+
+
+def select_or_text_keyed(
+    label: str,
+    options: list[str] | None,
+    *,
+    key: str,
+    default: str = "",
+) -> str:
+    options = options or []
+    if len(options) > 0:
+        return st.selectbox(label, options=options, key=key)
+    return st.text_input(label, value=default, key=key)
 
 
 def _clean_feature_name(name: str) -> str:
@@ -79,11 +134,11 @@ def get_shap_explainer(_model):
     return shap.TreeExplainer(_model)
 
 
-def explain_prediction(preprocess, model, X_input: pd.DataFrame) -> tuple[float, pd.DataFrame]:
-    X_processed = preprocess.transform(X_input)
+def explain_prediction(preprocess, model, x_input: pd.DataFrame) -> tuple[float, pd.DataFrame]:
+    x_processed = preprocess.transform(x_input)
     explainer = get_shap_explainer(model)
 
-    shap_vals = explainer.shap_values(X_processed)
+    shap_vals = explainer.shap_values(x_processed)
     base_value = explainer.expected_value
 
     # Normalize shapes
@@ -120,12 +175,18 @@ except Exception as exc:
     st.stop()
 
 categories = get_categories(preprocess)
+make_model_map = load_make_model_map()
 
 col1, col2 = st.columns(2)
 
 with col1:
-    make = select_or_text("Make", categories.get("Make"))
-    model_name = select_or_text("Model", categories.get("Model"))
+    make_options = sorted(make_model_map.keys()) if make_model_map else (categories.get("Make") or [])
+    make = select_or_text_keyed("Make", make_options, key="make")
+
+    model_options = make_model_map.get(make) if make_model_map else None
+    if not model_options:
+        model_options = categories.get("Model") or []
+    model_name = select_or_text_keyed("Model", model_options, key="model")
     yom = st.number_input("Year of Manufacture (YOM)", min_value=1950, max_value=2050, value=2015, step=1)
     engine_cc = st.number_input("Engine CC", min_value=0, max_value=10000, value=1500, step=50)
 
@@ -158,15 +219,15 @@ if st.button("Predict price"):
         "has_service_records": int(has_service_records),
     }
 
-    X_input = pd.DataFrame([input_row])
-    X_processed = preprocess.transform(X_input)
-    y_pred = float(model.predict(X_processed)[0])
+    x_input = pd.DataFrame([input_row])
+    x_processed = preprocess.transform(x_input)
+    y_pred = float(model.predict(x_processed)[0])
 
     st.success(f"Predicted price: {format_lkr(y_pred)}")
 
     with st.expander("Explain this prediction (SHAP)", expanded=True):
         try:
-            base_value, contrib = explain_prediction(preprocess, model, X_input)
+            base_value, contrib = explain_prediction(preprocess, model, x_input)
             st.caption(
                 "SHAP shows which inputs increased/decreased the model's output for this one prediction. "
                 "Positive SHAP pushes the price up; negative pushes it down."
