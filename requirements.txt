@@ -1,0 +1,3 @@
+# Root requirements for hosting (e.g., Streamlit Community Cloud)
+# The actual app dependencies live in frontend/requirements.txt
+-r frontend/requirements.txt
